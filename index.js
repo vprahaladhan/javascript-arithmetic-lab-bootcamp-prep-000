@@ -29,3 +29,10 @@ function makeInt(a) {
 function preserveDecimal(a) {
   return parseFloat(a)
 }
+
+function log() {
+  console.log(greeting);
+  var greeting = 'Hello!';
+}
+
+log();
